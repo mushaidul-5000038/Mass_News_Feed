@@ -22,13 +22,15 @@ Server--> The server side is handled by node js.
           d) Mysql database connections to work with different queries
           
  # Current Status
- *Good
- *I have used clean coding on the client side but as I am quite new on working with node js I could not keep it clean. I will soon work on it.
+ -->Good
+ 
+ -->I have used clean coding on the client side but as I am quite new on working with node js I could not keep it clean. I will soon work on it.
  
  #Bugs
  None
  
  # Future Plans
+ 
  --> Want to implement JWT for better authentication for users
  --> Will implement React Redux to control the states
  --> Will implement the option for authorized users to make comments on any post which can be viewed by all the other users
