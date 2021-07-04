@@ -5,7 +5,7 @@ This project is done for Web Tech Hackathon 2021
 This a news feed where a user can upload a post with captions,as well as vote on any posts. Only verified users are allowed to post or vote a picture while others will just be 
 able to view it. The goal to work on this project is to create a community where others can connect on by sharing their artworks and update.
 
-#Breakdown
+# Breakdown
 Client--> The client side is mainly handled by react js.
           Used following features :
           a)Context Api which works like a data layer to avoid prop drilling in react
@@ -28,7 +28,7 @@ Server--> The server side is handled by node js.
  #Bugs
  None
  
- #Future Plans
+ # Future Plans
  --> Want to implement JWT for better authentication for users
  --> Will implement React Redux to control the states
  --> Will implement the option for authorized users to make comments on any post which can be viewed by all the other users
