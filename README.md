@@ -10,10 +10,15 @@ able to view it. The goal to work on this project is to create a community where
 # Breakdown
 Client--> The client side is mainly handled by react js.
           Used following features :
+          
           a)Context Api which works like a data layer to avoid prop drilling in react
+          
           b)Styled Components
+          
           c)React Router Dom to create new page and link with them
+          
           d)Moment JS is used to manipulate the timestamp into a more desired version
+          
           e)Axios is used to make http (post/get) request to the rest api on the node server
           
 Server--> The server side is handled by node js.
