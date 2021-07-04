@@ -26,7 +26,7 @@ Server--> The server side is handled by node js.
  
  -->I have used clean coding on the client side but as I am quite new on working with node js I could not keep it clean. I will soon work on it.
  
- #Bugs
+ # Bugs
  None
  
  # Future Plans
