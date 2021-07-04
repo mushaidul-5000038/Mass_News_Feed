@@ -1,0 +1,91 @@
+.card {
+  width: 100%;
+
+  margin-bottom: 20px;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__container {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 75%;
+  margin-top: 20px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__container > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card__details {
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  background-color: #32323d;
+  width: 100%;
+}
+
+.card__time {
+  font-size: 1rem;
+  color: antiquewhite;
+}
+
+.card__details > p {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.card__details > h3 {
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(189, 181, 181);
+}
+
+.card__voteButton {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.card__voteButton > button {
+  width: 15%;
+  min-width: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 25px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.08rem;
+  background-color: #1d1d1f;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.card__voteButton > button:hover {
+  transform: scale(1.1);
+  transition: transform 600ms ease-in-out;
+  color: #1d1d1f;
+  background-color: white;
+  cursor: pointer;
+}
+
+.card__voteButton > h3 {
+  margin-bottom: 0;
+  color: lightcoral;
+}

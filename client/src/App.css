@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+  font-weight: bolder;
+}
+
+::placeholder {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+input {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.app__body {
+  /* margin-top: -19px; */
+  min-height: 100vh;
+  max-height: 100%;
+  display: flex;
+  background-color: lightblue;
+  align-items: center;
+  justify-content: center;
+}

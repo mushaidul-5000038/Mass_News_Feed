@@ -1,0 +1,103 @@
+.dashboard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard__userName {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  background-color: lightcoral;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.dashboard__addPost {
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.dashboard__form {
+  width: 75%;
+  background-color: rgb(119, 189, 212);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 20px 30px;
+  align-items: center;
+}
+
+.dashboard__form > h2 {
+  font-size: 1.8rem;
+}
+
+.dashboard__form > input {
+  margin-bottom: 20px;
+}
+
+.dashboard__imgInput {
+  outline: none;
+  border-radius: 2px;
+}
+
+.dashboard__inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard__inputs > input {
+  margin-bottom: 10px;
+}
+
+.dashboard__caption {
+  height: 40px;
+  outline: none;
+}
+
+.dashboard__form > button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  width: 15%;
+  height: 30px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: rgb(9, 169, 223);
+}
+
+.dashboard__form > button:hover {
+  transform: scale(1.1);
+  transition: transform 600ms ease-in-out;
+  color: white;
+  cursor: pointer;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 82%;
+  background-color: #f7f7f3;
+  height: 2px;
+}
